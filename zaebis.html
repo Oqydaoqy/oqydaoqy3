@@ -1,0 +1,205 @@
+<html>
+    <head>
+        <title>Oqy da Oqy</title>
+        <link rel="icon" href="OdO_icon.jpeg">
+        <style>
+            @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900,400italic,700italic,900italic);
+            .body{
+                background: linear-gradient(rgb(255, 255, 255),rgba(214, 212, 212, 0.89));
+            }
+            .vidos {
+                position: absolute;
+                object-fit: cover;
+                top: 0;
+                left: 0;
+                z-index: -1;
+            }
+
+            html{
+                scroll-behavior: smooth;
+            }
+
+            @media (min-aspect-ratio: 16/9) {
+                .vidos{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            @media (max-aspect-ratio: 16/9) {
+                .vidos{
+                    width: auto;
+                    height: 100%;
+                }
+            }
+
+            .navbar {
+                overflow: auto;
+                background-color: rgb(255, 255, 255);
+                position:fixed;
+                display: flex;
+                justify-content: center;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 60px;
+            }
+
+            .navbar a {
+                float:left;
+                font-size: 16px;
+                font-family: Garamond, serif;
+                color: rgb(116, 119, 107);
+                text-align: center;
+                padding: 14px 40px;
+                text-decoration: none;
+                transition: all 1s;
+                text-transform: uppercase;
+            }
+
+            .navbar a:hover {
+                color: rgb(14, 13, 13);
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            img.logo{
+                width: 50px;
+                position: absolute;
+                left: 10px;
+                top: 0px;
+            }
+
+            .zagolovok{
+                text-align: center;
+                margin-top: 300px;
+            }
+            .zagolovok h1{
+                width: 40em;
+                text-align: center;
+                font: 400 1em/1.5 'Raleway', sans-serif;
+                text-transform: uppercase;
+                color: #000000;
+                display: inline-block;
+                padding: 1.5em 0em;
+                letter-spacing: 0.1em;
+            }
+            .zagolovok h1 span{
+                font: 700 4em/1 "Raleway", sans-serif;
+                letter-spacing: 0;
+                padding: 0.25em 0 0.325em;
+                display: block;
+                margin: 0 auto;
+                text-shadow: 0px 0px 18px rgb(255, 255, 255,0.6);
+            }
+            
+            
+            div.a1{
+                margin-top: 0;
+                height: 528px; 
+            }
+            
+            div.a2{
+                margin-top: 0;
+                height: 800px;
+                background: rgb(255, 255, 255)  ;
+                width: 100%;
+                left: 0;
+            }
+
+            h2.pars{
+                padding-top: 50px;
+                text-transform: uppercase;
+                color: rgb(39, 39, 40);
+                font: 700 2em/1.5 'Raleway', sans-serif;
+                padding-left: 20px;
+            }
+
+            p.par{
+                text-transform: uppercase;
+                color: rgb(39, 39, 40);
+                font: 400 1em/1.5 'Raleway', sans-serif;
+                width: 500px;
+                padding-left: 50px;
+            }
+
+            div.rs{
+                justify-content: right;
+                padding-left: 1000px;
+                width: 450px;
+            }
+            p.parh{
+                text-transform: uppercase;
+                color: rgb(39, 39, 40);
+                font: 400 1em/1.5 'Raleway', sans-serif;
+            }
+            div.a3{
+                margin-top: 0;
+                height: 800px;
+                background: rgb(39, 39, 40);
+                width: 100%;
+                left: 0;
+                justify-content: center;
+                text-align: center;
+            }
+            h1.b1{
+                text-transform: uppercase;
+                font: 700 2em/1.5 'Raleway', sans-serif;
+                color: rgb(255, 255, 255);
+                padding-top: 350px;
+            }
+            h1.b12{
+                text-transform: uppercase;
+                font: 700 2em/1.5 'Raleway', sans-serif;
+                color: rgb(255, 255, 255);
+            }
+
+            div.c1{
+                background: rgb(0, 0, 0);
+                margin-top: 0;
+                height: 400px;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="a1">
+            <video autoplay loop muted class="vidos">
+                <source src="ALA_bg.MP4">
+            </video>
+            <div class="navbar">
+                <img src="OdO_icon.jpeg" class="logo">
+               <a href="#top">oqy da oqy</a>
+               <a href="#">КІТАПТАР</a>
+               <a href="#aboutus">Біз туралы</a>
+               <a href="#donate">Демеушілік</a>
+            </div>
+            <div class="zagolovok">
+                <h1>Білімнің басы — бейнет <span>Oqy da Oqy</span> соңы — зейнет</h1>
+            </div>
+        </div>
+        <div class="a2" id="aboutus">
+            <h2 class="pars">біздің мақсаттарымыз:</h2>
+            <p class="par">қазақтілінде сөйлейтін адамдарға қаржылық сауаттылықты үйренуге мүмкіндік беру</p>
+            <p class="par">болашақта көбірек оқу санаттарын қосылу</p>
+            <p class="par">сан жағынан емес, сапалық жағынан жасамыз</p>
+            <div class="rs"> 
+                <h2 class="pars">Біз туралы:</h2>
+                <p class="parh">Біздің команда аудармашылар мен IT мамандарынан тұрады, олар білім беру үшін өз дағдыларын беруге ерікті</p>
+            </div>
+            <h2 class="pars">IELTS аудармашысының нәтижелері:</h2>
+            <p class="par">7.0</p>
+            <p class="par">6.5</p>
+            <p class="par">7.5</p>
+            <p class="par">7.0</p>
+        </div>
+        
+        <div class="a3" id="donate">
+            <h1 class="b1">kaspi нөмірі</h1>
+            <h1 class="b12">+7 778 397 7777</h1>
+            <p>suiiiii</p>
+        </div>
+
+        <div class="c1"></div>
+    </body>
+</html>
